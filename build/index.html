@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   	<meta charset="UTF-8">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+   	<link rel="stylesheet" href="css/bootstrap.css">
+   	<link rel="stylesheet" href="css/font-awesome.min.css">
+   	<link href="./css/style.css" rel="stylesheet"/>
+	<script src="js/jquery-1.12.4.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+   	<title>Gulp Practice</title>
+</head>
+<body>
+   	<header>
+   		<div class="container">
+   			<div class="logo-container">
+		   		<img src="images/fingerprint.png" class="logo" alt="logo"> <a href="">tinyone</a>
+		   	</div>
+		   	<nav class="navigation">
+		   		<ul class="menu list-unstyled list-inline">
+		   			<li><a href="#">Features</a></li>
+		   			<li><a href="#">Support</a></li>
+		   			<li><a href="#">Blog</a></li>
+		   		</ul>
+		   	</nav>
+	   	</div>
+   	</header>
+   	<div class="main">
+   		<div class="slider-block">
+   			<div class="container">
+   				<div class="row">
+   					<div class="col-xs-12 col-sm-6">
+   						<div class="slide-container">
+   							<div class="slide-title">
+	   							Inspire your inspiration
+	   						</div>
+	   						<div class="slide-subtitle">
+	   							Simple to use for your app, products showcase and your inspiration
+	   						</div>
+	   						<div class="slide-text">
+	   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+	   						</div>
+	   						<div class="slide-buttons">
+	   							<i class="fa fa-apple"></i>
+								<i class="fa fa-android"></i>
+								<i class="fa fa-windows"></i>
+	   						</div>
+   						</div>
+   						<div class="slide-container">
+   							<div class="slide-title">
+	   							Inspire your inspiration 2
+	   						</div>
+	   						<div class="slide-subtitle">
+	   							Simple to use for your app, products showcase and your inspiration
+	   						</div>
+	   						<div class="slide-text">
+	   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+	   						</div>
+	   						<div class="slide-buttons">
+	   							<i class="fa fa-apple"></i>
+								<i class="fa fa-windows"></i>
+								<i class="fa fa-android"></i>
+	   						</div>
+   						</div>
+   						<div class="slide-container">
+   							<div class="slide-title">
+	   							Inspire your inspiration 3
+	   						</div>
+	   						<div class="slide-subtitle">
+	   							Simple to use for your app, products showcase and your inspiration
+	   						</div>
+	   						<div class="slide-text">
+	   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit 
+	   						</div>
+	   						<div class="slide-buttons">
+	   							<i class="fa fa-windows"></i>
+	   							<i class="fa fa-apple"></i>
+								<i class="fa fa-android"></i>
+	   						</div>
+   						</div>
+   					</div>
+   					<div class="col-xs-12 col-sm-6 text-center">
+   						<img src="images/iPad_Mini.png" class="near-slide-img" alt="iPad Mini">
+   					</div>
+   				</div>
+   				<div class="row">
+   					<div class="col-xs-12">
+   						<div class="text-center dots-block">
+						  <span class="dot" onclick="currentSlide(1)"></span> 
+						  <span class="dot" onclick="currentSlide(2)"></span> 
+						  <span class="dot" onclick="currentSlide(3)"></span>
+						</div>
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+   		<div class="features-block">
+   			<div class="container">
+   				<div class="row">
+   					<div class="col-xs-12 text-center">
+   						<div class="feat-bl-title">
+   							Tinyone features
+   						</div>
+   						<div class="feat-bl-text">
+   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+   						</div>
+   					</div>
+   				</div>
+   				<div class="row">
+   					<div class="col-xs-12 col-sm-4 feature">
+   						<img src="images/icon-font-1.png" alt="">
+   						<div class="feature-title">
+   							Fully Responsive
+   						</div>
+   						<div class="feature-text">
+   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+   						</div>
+   					</div>
+   					<div class="col-xs-12 col-sm-4  feature">
+   						<img src="images/icon-font-2.png" alt="">
+   						<div class="feature-title">
+   							Fully Layered PSD
+   						</div>
+   						<div class="feature-text">
+   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+   						</div>
+   					</div>
+   					<div class="col-xs-12 col-sm-4  feature">
+   						<img src="images/icon-font-3.png" alt="">
+   						<div class="feature-title">
+   							Font Awesome Icons
+   						</div>
+   						<div class="feature-text">
+   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+   						</div>
+   					</div>
+   					<div class="col-xs-12 col-sm-4  feature">
+   						<img src="images/icon-font-4.png" alt="">
+   						<div class="feature-title">
+   							HTML3 &amp; CSS3 
+   						</div>
+   						<div class="feature-text">
+   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+   						</div>
+   					</div>
+   					<div class="col-xs-12 col-sm-4  feature">
+   						<img src="images/icon-font-5.png" alt="">
+   						<div class="feature-title">
+   							Email Template
+   						</div>
+   						<div class="feature-text">
+   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+   						</div>
+   					</div>
+   					<div class="col-xs-12 col-sm-4  feature">
+   						<img src="images/icon-font-6.png" alt="">
+   						<div class="feature-title">
+   							Free to download
+   						</div>
+   						<div class="feature-text">
+   							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+   						</div>
+   					</div>
+   				</div>
+   			</div>
+   		</div>
+   	</div>
+   	<footer>
+   		<div class="contact-title">
+   			Keep in touch with us
+   		</div>
+   		<div class="contact-text">
+   			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
+   		</div>
+   		<div class="contact-container">
+   			<form action="">
+   				<input type="text" placeholder="Enter your email to update" name="email">
+   				<button type="submit">Submit</button>
+   			</form>
+   		</div>
+   		<div class="footer-social">
+   			<a href="#"><img src="images/facebook-ico.png" alt=""></a>
+   			<a href="#"><img src="images/twitter-ico.png" alt=""></a>
+   			<a href="#"><img src="images/google-plus-ico.png" alt=""></a>
+   			<a href="#"><img src="images/pinterest-ico.png" alt=""></a>
+   		</div>
+   		<div class="container">
+   			<div class="row">
+   				<div class="col-xs-8 col-sm-4">
+   					HALOVIETNAM LTD<br>
+					66, Dang Van ngu, Dong Da<br>
+					Hanoi, Vietnam<br>
+					<a class="email" href="mailto:contact@halovietnam.com">contact@halovietnam.com</a><br>
+					<a class="phone" href="tel:84435149182">+844 35149182</a>
+   				</div>
+   				<div class="col-xs-4 col-sm-2">
+   					<ul class="list-unstyled footer-menu">
+   						<a href="#">
+   							<li>Examples</li>
+   						</a>
+   						<a href="#">
+   							<li>Shop</li>
+   						</a>
+   						<a href="#">
+   							<li>License</li>
+   						</a>
+   					</ul>
+   				</div>
+   				<div class="clearfix visible-xs" style="margin-bottom: 10px;"></div>
+   				<div class="col-xs-4 col-sm-2">
+   					<ul class="list-unstyled footer-menu">
+   						<a href="#">
+   							<li>Contact</li>
+   						</a>
+   						<a href="#">
+   							<li>About</li>
+   						</a>
+   						<a href="#">
+   							<li>Privacy</li>
+   						</a>
+   						<a href="#">
+   							<li>Terms</li>
+   						</a>
+   					</ul>
+   				</div>
+   				<div class="col-xs-4 col-sm-2">
+   					<ul class="list-unstyled footer-menu">
+   						<a href="#">
+   							<li>Download</li>
+   						</a>
+   						<a href="#">
+   							<li>Support</li>
+   						</a>
+   						<a href="#">
+   							<li>Documents</li>
+   						</a>
+   					</ul>
+   				</div>
+   				<div class="col-xs-4 col-sm-2">
+   					<ul class="list-unstyled footer-menu">
+   						<a href="#">
+   							<li>Media</li>
+   						</a>
+   						<a href="#">
+   							<li>Blog</li>
+   						</a>
+   						<a href="#">
+   							<li>Forums</li>
+   						</a>
+   					</ul>
+   				</div>
+   			</div>
+   		</div>
+   	</footer>
+   	<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("slide-container");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+	</script>
+</body>
+</html>
