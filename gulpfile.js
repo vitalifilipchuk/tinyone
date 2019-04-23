@@ -12,5 +12,5 @@ gulp.task('css', function() {
    			  	.pipe(prefixer())
    		      	.pipe(cleanCSS({compatibility: 'ie8'}))
    		      	.pipe(map.write())
-              	.pipe(gulp.dest('build/css'));
+              	.pipe(gulp.dest('docs/css'));
 });
